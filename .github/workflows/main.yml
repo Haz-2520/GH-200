@@ -1,0 +1,10 @@
+name: GH-200-Class
+
+on: push
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello World
+      - run: echo "Hello"
