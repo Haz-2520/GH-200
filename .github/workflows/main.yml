@@ -28,3 +28,8 @@ jobs:
           figlet -f digital "GitHub Actions"
 
           echo "ASCII Art Generated"
+          
+      - name: Create ASCII Art
+        run: |
+          chmod +x scripts/greets.sh
+          ./scripts/greets.sh
