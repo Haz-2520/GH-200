@@ -31,5 +31,5 @@ jobs:
           
       - name: Create ASCII Art
         run: |
-          chmod +x scripts/greets.sh
+          chmod +x .github/workflows/script
           ./scripts/greets.sh
