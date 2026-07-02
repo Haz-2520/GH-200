@@ -1,10 +1,10 @@
-name: GH-200-Class
-
+name: GH200-Workflow
+ 
 on: push
-
+ 
 jobs:
   setup:
     runs-on: ubuntu-latest
     steps:
       - name: Hello World
-      - run: echo "Hello"
+        run: echo "Hello to the GH-200 Workshop!!!"
